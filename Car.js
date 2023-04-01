@@ -46,6 +46,8 @@ class Car {
             }
         }
 
+        //read more on this
+
         this.x -= Math.sin(this.angle) * this.speed;
         this.y -= Math.cos(this.angle) * this.speed;
     }
