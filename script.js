@@ -6,7 +6,7 @@ canvas.height = 600;
 
 
 const carObject = {
-    x: 300,
+    x: 400,
     y: 300,
     width: 30,
     height: 50
@@ -18,6 +18,8 @@ function animate() {
     //clear canvas
     drawingSurface.fillStyle = "white";
     drawingSurface.fillRect(0, 0, canvas.width, canvas.height);
+
+    drawingSurface.strokeRect(0, 0, canvas.width / 2, canvas.height / 2);
 
     car.update();
     car.draw();
