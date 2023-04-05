@@ -19,7 +19,7 @@ function animate() {
     drawingSurface.fillStyle = "white";
     drawingSurface.fillRect(0, 0, canvas.width, canvas.height);
 
-    drawingSurface.strokeRect(0, 0, canvas.width / 2, canvas.height / 2);
+    // drawingSurface.strokeRect(0, 0, canvas.width / 2, canvas.height / 2);
 
     car.update();
     car.draw();
