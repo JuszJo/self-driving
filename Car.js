@@ -58,6 +58,7 @@ class Car {
         drawingSurface.translate(this.x, this.y)
         drawingSurface.rotate(-this.angle)
 
+        //center car in its middle
         drawingSurface.fillStyle = this.color;
         drawingSurface.fillRect(-this.width / 2, -this.height / 2, this.width, this.height);
 
