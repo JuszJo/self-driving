@@ -46,7 +46,7 @@ class Car {
             }
         }
 
-        //read more on this
+        //get direction for x and y axis and add the direction
         this.x -= Math.sin(this.angle) * this.speed;
         this.y -= Math.cos(this.angle) * this.speed;
         // console.log((Math.sin(this.angle) * this.speed), Math.cos(this.angle) * this.speed);
