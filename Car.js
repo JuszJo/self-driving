@@ -46,11 +46,17 @@ class Car {
             }
         }
 
-        //get direction for x and y axis and add the direction
+        // Math.sin(angle) will give the projection on the x axis
+        // Math.cos(angle) will give the projection on the y axis
+
         this.x -= Math.sin(this.angle) * this.speed;
         this.y -= Math.cos(this.angle) * this.speed;
+
         // console.log((Math.sin(this.angle) * this.speed), Math.cos(this.angle) * this.speed);
-        console.log(this.x, this.y);
+        // console.log(this.x, this.y);
+        // console.log(Math.sin(this.angle));
+        
+        console.log(Math.cos(this.angle));
     }
 
     draw() {
