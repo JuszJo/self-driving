@@ -54,12 +54,13 @@ class Car {
 
         // console.log((Math.sin(this.angle) * this.speed), Math.cos(this.angle) * this.speed);
         // console.log(this.x, this.y);
-        // console.log(Math.sin(this.angle));
+        // console.log(Math.sin(this.angle), Math.cos(this.angle));
         
-        console.log(Math.cos(this.angle));
+        // console.log(Math.cos(this.angle));
     }
 
     draw() {
+        // read up on save
         drawingSurface.save()
         drawingSurface.translate(this.x, this.y)
         drawingSurface.rotate(-this.angle)
